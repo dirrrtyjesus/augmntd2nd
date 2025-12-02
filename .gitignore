@@ -1,0 +1,56 @@
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+target/
+dist/
+build/
+.anchor/
+
+# IDL and types (generated)
+augmntd2nd/target/idl/
+augmntd2nd/target/types/
+
+# Keypairs (SECURITY: Never commit private keys)
+*-keypair.json
+*.pem
+*.key
+id.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.anchor/program-logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Rust
+**/target/
+**/*.rs.bk
+Cargo.lock
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
